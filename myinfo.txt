@@ -1,0 +1,77 @@
+Personal Information
+
+    Name: Tarun Chava
+    Designation: IT Operational Analyst
+    Location: Hyderabad, Telangana, 502319
+    Contact: +91-7013774209
+    Email: chava.tarun@hcl.com
+
+Objective
+
+    Leverage experience in data analysis and technical support to enhance operational efficiency.
+    Open to exploring new fields and challenges to expand knowledge and skills.
+
+Experience
+Training & Internship (Sep 2019 - Dec 2020)
+
+    Completed Techbee internship at HCL Technologies.
+    Trained in Windows, Linux, Oracle, Networking, and Operating Systems.
+    Quickly adapted to IT tasks in a fast-paced environment.
+
+IT Analyst at HCL Technologies (Dec 2020 - Present)
+
+    Worked in the Hardware Asset Management (HAM) team supporting a key client.
+    Managed and prioritized queue operations, resolving issues efficiently.
+    Performed data reconciliation to ensure accurate asset records.
+    Developed and optimized Standard Operating Procedures (SOPs) using Microsoft Office tools.
+    Implemented process improvements for operational efficiency.
+
+Education
+
+    High School: Completed in 2017.
+    BITS University: Bachelor of Science & Computers (GPA: 7.3) - Graduated in 2021.
+
+Projects
+
+    Rock Paper Scissors Game (Python | 3 hours)
+        Developed a game with random choice logic and input validation.
+
+    Quiz App (Python | 3 hours)
+        Built a multiple-choice quiz application with feedback and score display.
+
+    Calculator (Python | 3 hours)
+        Created a basic calculator for addition, subtraction, multiplication, and division.
+
+    Discord Music Bot (JavaScript | 2 days)
+        Developed a bot to play music in Discord voice channels with queue management.
+
+    Mario 2D Game (Unity | 2 weeks)
+        Created a 2D platformer game with levels, movement, and collision detection.
+
+    AI Character Chat Website (React, TypeScript, Vite, Tailwind CSS, OpenAI API, Supabase | Ongoing)
+        Building an AI chat website with OpenAI APIs and Supabase authentication.
+
+    Nacks Website (React, Tailwind CSS | 1 month)
+        Developed a responsive snacks-themed website with product displays and interactions.
+
+    To-Do List App (JavaScript (Electron) | 2 days)
+        Built a desktop task management app with add, edit, and delete functionality.
+
+    Personal Portfolio Website (HTML, CSS, JavaScript | 3 days)
+        Designed a responsive site showcasing projects, skills, and contact information.
+
+Skills
+
+    Operating Systems: Windows, Linux.
+    Databases: Oracle, SQL, MySQL.
+    IT Service Management: ServiceNow, ITIL.
+    Programming Languages: Python, Java, C++, C#.
+    Unity Engine.
+    Web Development: HTML, CSS, JavaScript.
+    Cloud Computing: AWS, Azure, GCP.
+    Data Analysis and Visualization.
+    Troubleshooting and Problem-Solving.
+    Communication (Verbal and Written).
+    Collaboration and Teamwork.
+    Time Management and Multitasking.
+    Adaptability and Continuous Learning.

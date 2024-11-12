@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chava Tarun</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Chava Tarun - Portfolio">
+    <meta name="theme-color" content="#151912">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@300;400&display=swap" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style">
+
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Chava Tarun">
+    <meta property="og:title" content="Chava Tarun | Portfolio">
+    <meta property="og:description" content="Chava Tarun | Portfolio">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <meta http-equiv="hardware" content="true">
+    <meta name="renderer" content="webkit">
+    <!-- Force GPU acceleration -->
+    <style>
+        canvas#neuro {
+            transform: translateZ(0);
+            backface-visibility: hidden;
+            perspective: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll-progress">
+        <div class="scroll-progress-bar">
+            <div class="scroll-glow"></div>
+        </div>
+    </div>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-content">
+            <div class="nav-brand">TC</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <div class="hero" id="home" role="banner">
+            <div class="hero-content">
+                <h1>Chava Tarun</h1>
+                <p class="subtitle"></p> <!-- dont ask why its empty, check js -->
+            </div>
+            <div class="overlay"></div>
+            <canvas id="neuro"></canvas>
+        </div>
+
+        <div class="content">
+            <section id="about" aria-labelledby="about-heading">
+                <h2 id="about-heading">About Me</h2>
+                <p>As an IT Operational Analyst at HCL Technologies, I blend technical expertise with a love for programming. Currently focused on Hardware Asset Management while building web applications and exploring new technologies.</p>
+            </section>
+
+            <section id="projects" aria-labelledby="projects-heading">
+                <h2 id="projects-heading">Projects</h2>
+                <div class="grid" role="list">
+                    <div class="card" role="listitem">
+                        <span class="tech-tag">React • TypeScript</span>
+                        <h3>AI Character Chat</h3>
+                        <p>Chat platform featuring AI-powered characters with conversation memory.</p>
+                        <a href="https://chat.miquella.moe/" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
+                    </div>
+                    <div class="card" role="listitem">
+                        <span class="tech-tag">React • Tailwind</span>
+                        <h3>Nacks Website</h3>
+                        <p>Snacks based company website with modern UI/UX design.</p>
+                        <a href="https://nacks.in/" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
+                    </div>
+                    <div class="card" role="listitem">
+                        <span class="tech-tag">HTML • CSS • JavaScript</span>
+                        <h3>Portfolio Website</h3>
+                        <p>Personal portfolio website showcasing my projects and skills.
+                            <span class="typewriter-wrapper">
+                                <i class="fas fa-map-pin typewriter-icon"></i>
+                                <span class="typewriter">you are here</span>
+                            </span>
+                        </p>
+                        <a href="https://chavatarun.me" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
+                    </div>
+                    <div class="card" role="listitem">
+                        <span class="tech-tag">Python • CLI</span>
+                        <h3>Rock Paper Scissors</h3>
+                        <p>Python-based game with random choice logic and input validation. Features score tracking and cool CLI interface.</p>
+                        <a href="https://github.com/miquelladesu/RPS" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
+                    </div>
+                    <div class="card mystery-card" role="listitem">
+                        <div class="mystery-placeholder">
+                            <i class="fas fa-fingerprint mystery-icon"></i>
+                            <div class="progress-ring">
+                                <svg viewBox="0 0 36 36" class="circular-progress">
+                                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="mystery-content">
+                            <span class="tech-tag"><i class="fas fa-code-branch"></i> In Development</span>
+                            <h3>Game Project</h3>
+                            <p>Details will be revealed soon. Currently in early development phase.</p>
+                            <div class="project-status">
+                                <span class="pulse-dot"></span>
+                                Coming Soon
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>Skills & Expertise</h2>
+                <div class="skills-container">
+                    <div class="skills-group">
+                        <h3><i class="fas fa-code"></i> Development</h3>
+                        <div class="skill-pills">
+                            <span class="skill-pill proficient">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                                <div class="skill-level" data-level="90%"></div>
+                            </span>
+                            <span class="skill-pill proficient">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                                <div class="skill-level" data-level="85%"></div>
+                            </span>
+                            <span class="skill-pill advanced">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                                <div class="skill-level" data-level="80%"></div>
+                            </span>
+                            <span class="skill-pill"><i class="fab fa-java"></i> Java</span>
+                            <span class="skill-pill"><i class="fas fa-code"></i> C++</span>
+                            <span class="skill-pill"><i class="fab fa-html5"></i> HTML</span>
+                            <span class="skill-pill"><i class="fab fa-css3-alt"></i> CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-group">
+                        <h3><i class="fas fa-cloud"></i> Cloud & Tools</h3>
+                        <div class="skill-pills">
+                            <span class="skill-pill"><i class="fab fa-aws"></i> AWS</span>
+                            <span class="skill-pill"><i class="fab fa-microsoft"></i> Azure</span>
+                            <span class="skill-pill"><i class="fab fa-google"></i> GCP</span>
+                            <span class="skill-pill"><i class="fas fa-gamepad"></i> Unity</span>
+                            <span class="skill-pill"><i class="fab fa-git-alt"></i> Git</span>
+                            <span class="skill-pill"><i class="fas fa-server"></i> ServiceNow</span>
+                            <span class="skill-pill"><i class="fas fa-tasks"></i> ITIL</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-group">
+                        <h3><i class="fas fa-server"></i> Infrastructure</h3>
+                        <div class="skill-pills">
+                            <span class="skill-pill"><i class="fas fa-database"></i> Oracle</span>
+                            <span class="skill-pill"><i class="fas fa-database"></i> MySQL</span>
+                            <span class="skill-pill"><i class="fas fa-table"></i> SQL</span>
+                            <span class="skill-pill"><i class="fab fa-windows"></i> Windows</span>
+                            <span class="skill-pill"><i class="fab fa-linux"></i> Linux</span>
+                            <span class="skill-pill"><i class="fas fa-sitemap"></i> Asset Management</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-group">
+                        <h3><i class="fas fa-users-cog"></i> Professional</h3>
+                        <div class="skill-pills">
+                            <span class="skill-pill"><i class="fas fa-puzzle-piece"></i> Problem Solving</span>
+                            <span class="skill-pill"><i class="fas fa-headset"></i> Technical Support</span>
+                            <span class="skill-pill"><i class="fas fa-comments"></i> Communication</span>
+                            <span class="skill-pill"><i class="fas fa-users"></i> Team Leadership</span>
+                            <span class="skill-pill"><i class="fas fa-chart-line"></i> Process Optimization</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-card">
+                        <i class="fab fa-github contact-icon"></i>
+                        <h3 class="contact-title">GitHub</h3>
+                        <p class="contact-text">Check out my projects and contributions</p>
+                        <a href="https://github.com/" class="contact-link"> <!-- add username i forgor -->
+                            View Profile <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-linkedin contact-icon"></i>
+                        <h3 class="contact-title">LinkedIn</h3>
+                        <p class="contact-text">Let's connect professionally</p>
+                        <a href="https://linkedin.com/in/yourusername" class="contact-link"> <!-- add username ^ -->
+                            Connect <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <h3 class="contact-title">Email</h3>
+                        <p class="contact-text">Drop me a message anytime</p>
+                        <a href="mailto:your.email@example.com" class="contact-link"> <!-- college mail? or personal mail. you said you'll make a separate new mail so i left it blank update it -->
+                            Send Email <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <script type="x-shader/x-fragment" id="vertShader">
+                precision mediump float;
+
+                varying vec2 vUv;
+                attribute vec2 a_position;
+
+                void main() {
+                    vUv = .5 * (a_position + 1.);
+                    gl_Position = vec4(a_position, 0.0, 1.0);
+                }
+            </script>
+
+            <script type="x-shader/x-fragment" id="fragShader">
+                precision mediump float;
+
+                varying vec2 vUv;
+                uniform float u_time;
+                uniform float u_ratio;
+                uniform vec2 u_pointer_position;
+                uniform float u_scroll_progress;
+
+                vec2 rotate(vec2 uv, float th) {
+                    return mat2(cos(th), sin(th), -sin(th), cos(th)) * uv;
+                }
+
+                float neuro_shape(vec2 uv, float t, float p) {
+                    vec2 sine_acc = vec2(0.);
+                    vec2 res = vec2(0.);
+                    float scale = 8.;
+
+                    for (int j = 0; j < 15; j++) {
+                        uv = rotate(uv, 1.);
+                        sine_acc = rotate(sine_acc, 1.);
+                        vec2 layer = uv * scale + float(j) + sine_acc - t;
+                        sine_acc += sin(layer);
+                        res += (.5 + .5 * cos(layer)) / scale;
+                        scale *= (1.2 - .07 * p);
+                    }
+                    return res.x + res.y;
+                }
+
+                void main() {
+                    vec2 uv = .5 * vUv;
+                    uv.x *= u_ratio;
+
+                    vec2 pointer = vUv - u_pointer_position;
+                    pointer.x *= u_ratio;
+                    float p = clamp(length(pointer), 0., 1.);
+                    p = .5 * pow(1. - p, 2.);
+
+                    float t = .001 * u_time;
+                    vec3 color = vec3(0.);
+
+                    float noise = neuro_shape(uv, t, p);
+
+                    noise = 1.2 * pow(noise, 3.);
+                    noise += pow(noise, 10.);
+                    noise = max(.0, noise - .5);
+                    noise *= (1. - length(vUv - .5));
+
+                    color = normalize(vec3(.2, .5 + .4 * cos(3. * u_scroll_progress), .5 + .5 * sin(3. * u_scroll_progress)));
+
+                    color = color * noise;
+
+                    gl_FragColor = vec4(color, noise);
+                }
+            </script>
+        </div>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
